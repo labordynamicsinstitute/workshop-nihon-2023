@@ -1,0 +1,30 @@
+---
+title: "Part 10: Writing the README"
+author: 
+  - "Lars Vilhuber"
+  - "Chishio Furukawa"
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+    incremental: false
+    css: style.css
+    self-included: true
+    widescreen: true
+---
+  
+```{r, child=c('toc2.md')}
+```
+
+# Let's write a README
+
+## Let's write a README
+
+[https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/)
+
+```{r, child=c('counter30.md')}
+```
+
+# Next
+
+```{r, child=c('toc2.md')}
+```

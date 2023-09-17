@@ -1,0 +1,74 @@
+---
+title: "Fin: Discussion"
+author: 
+  - "Lars Vilhuber"
+  - "Chishio Furukawa" 
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+    incremental: false
+    self-included: true
+    widescreen: true
+---
+
+```{r, child=c('toc2.md')}
+```
+
+
+# Discussion 
+
+
+## Write your own README
+
+- [Self-guided presentation](10-writing-readme.html))
+- Resources  
+  - [https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/)
+  - [Online README creator](https://www.templatereadme.org/)
+
+## How to run your software
+
+- [Self-guided presentation (for Stata)](03-how-to-run-stata.html)
+- Think: how do you run Stata/R/Python?
+  - Can you think of other ways to run it? Try them out. Do you get the same results?
+
+## Running things in the cloud
+
+- [Self-guided presentation](04-cloud-computing.html)
+- Resources:
+    - Python in the cloud ([Github Codespaces](https://github.com/codespaces), Google Colab, ...) 
+    - Stata in the cloud! ([Github Codespaces with Stata](https://github.com/labordynamicsinstitute/codespaces-stata-skeleton), [CodeOcean](https://codeocean.com), [Wholetale](https://wholetale.org)) 
+- Try it out (need Github Account or CodeOcean Account or WholeTale account)
+- When will it not work?
+
+## Versioning
+
+- Learn to use Github
+- Now: learn to use Git... 
+  - Why is that not the same thing?
+- How to version without Git?
+  - What is better: `mycode_v1.do` + `mycode_v2.do` + `mycode_v2.final.do`? Or `mycode.do` and occassional copies to `mycode_2023-09-08.do`, `mycode_2023-09-09.do`, ...?
+- Can you create a release? 
+- Resources:
+  - [Carpentries training for Git](https://swcarpentry.github.io/git-novice/)
+
+
+## Licensing
+
+- [Self-guided presentation](09-writing-readme.html)
+- What intellectual property rights do you have?
+  - Data you collected?
+  - Data you obtained elsewhere? (Can you include it or not?)
+  - Data you purchased?
+  - Code you write?
+- Are you responsible when others do stupid things with your code?
+
+## Archiving
+
+- [Self-guided presentation](11-archiving.html)
+- What is the difference between archiving and sharing?
+  - How long does it take to delete a file on your personal website? On Github? On Dataverse? 
+- How do you share from Github?
+- How do you preserve and archive on Zenodo, Dataverse, or other repositories?
+- Try it out.
+- Resources:
+  - [Zenodo Sandbox](https://sandbox.zenodo.org)

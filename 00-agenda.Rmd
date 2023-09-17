@@ -1,0 +1,116 @@
+---
+title: "École d'été 2023 - Introduction"
+author: 
+  - "Lars Vilhuber"
+  - "Chishio Furukawa"
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+  incremental: false
+self-included: true
+widescreen: true
+---
+  
+```{r, child=c('toc.md')}
+```
+
+## Details {.smaller}
+
+- Welcome
+- Overview
+- Technical
+- Imperfect example
+  - [github.com/labordynamicsinstitute/very-imperfect-example](https://github.com/labordynamicsinstitute/very-imperfect-example)
+  - How to download from Github: two ways
+  - Let's replicate!
+
+## Details {.smaller}
+
+- Discussion 
+- [how to install Stata packages](02-how-to-install-Stata-packages.html) 
+  - More generally: the role of environments
+- [Data provenance](07-data-provenance.html)       
+  - What is it
+  - Helping others find data
+
+## Details {.smaller}
+
+After lunch, more details.
+
+## Détails {.smaller}
+
+- 13:30 Side-note: how to run things in the cloud (90 minutes)
+  - C'est quoi, le cloud?
+  - Resources:
+    - Python in the cloud ([Github Codespaces](https://github.com/codespaces), Google Colab, ...) 
+    - Stata in the cloud! ([Github Codespaces with Stata](https://github.com/labordynamicsinstitute/codespaces-stata-skeleton), [CodeOcean](https://codeocean.com), [Wholetale](https://wholetale.org)) 
+  - Try it out (need Github Account or CodeOcean Account or WholeTale account)
+- 15:00 Break
+
+
+## Détails {.smaller}
+
+- 15:15 How to structure a project 
+- 16:00 Try it out / Fin
+
+
+# Day 2
+
+
+```{r, child=c('toc2.md')}
+```
+
+## Détails {.smaller}
+
+- 9:00 Documenting it all: the template README 
+  - [https://social-science-data-editors.github.io/template_README/](https://social-science-data-editors.github.io/template_README/)
+
+- 10:00 Data provenance
+  - Data citations (15 min)
+  - Data provenance: beyond citations
+    - Complex examples: IPUMS, WDI, DHS
+  - Source of the US Census data 
+  - Authoritative vs. random sources
+
+## Détails {.smaller}
+
+- 10:30 When data cleaning is critical
+  - Your project doesn't start with the analysis data (no "trust me")
+  - Find the problem!
+  - Try it out: 30 minutes
+
+## Détails {.smaller}
+
+- 11:00 Completing the template README
+  - Documenting data provenance
+  - The role of licenses and permissions 
+- 12:00 Break (1h)
+
+## Détails {.smaller}
+
+- 13:00 Creating a replication package
+  - So you have it all?
+  - Let's try that again: Run your neighbor's replication package in 10 minutes
+  - (30 minutes)
+  
+## Détails {.smaller}
+
+- 13:30 Depositing a replication package
+  - Gentle introduction to Zenodo (sandbox) (or Dataverse)
+  - Uploading - Zipfiles vs. individual files?
+  - Metadata
+  - Pressing publish - what happens?
+  - Updating a replication package
+- 14:30  Break
+
+## Détails {.smaller}
+
+- 14:45 Wrap-up
+  - Group discussion
+  - Questions
+- 16:00 (ou plus tôt): Fin.
+
+
+```{r, child=c('toc.md')}
+```
+

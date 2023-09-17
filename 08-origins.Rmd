@@ -1,0 +1,46 @@
+---
+title: "Part 8: Data Provenance"
+author: 
+  - "Lars Vilhuber"
+  - "Chishio Furukawa"
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+  incremental: false
+self-included: true
+widescreen: true
+---
+  
+```{r, child=c('toc2.md')}
+```
+
+# Where does the analysis data come from?
+
+## Data Provenance
+
+"US Census 2000"
+
+## But where?
+
+- [Census.gov](https://data.census.gov/)
+- [IPUMS USA](https://usa.ipums.org/usa/)
+- [ICPSR](https://www.icpsr.umich.edu/icpsrweb/)
+
+# WE DON'T KNOW!
+
+## We don't know
+
+... because in this version, the author doesn't tell us. 
+
+## Let's find out
+
+[https://github.com/labordynamicsinstitute/very-imperfect-example/](https://github.com/labordynamicsinstitute/very-imperfect-example/)
+
+```{r, child=c('counter30.md')}
+```
+
+# Next
+
+
+```{r, child=c('toc2.md')}
+```

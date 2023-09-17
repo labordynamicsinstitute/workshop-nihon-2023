@@ -1,0 +1,88 @@
+---
+title: "Part 1: A very imperfect example"
+author: 
+  - "Lars Vilhuber"
+  - "Chishio Furukawa"
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+  incremental: false
+self-included: true
+widescreen: true
+---
+  
+```{r, child=c('toc.md')}
+```
+
+## Overview
+
+::: {.columns-2}
+
+:::: {.column}
+
+- A Github package with a paper, code, data
+- [https://github.com/labordynamicsinstitute/very-imperfect-example](https://github.com/labordynamicsinstitute/very-imperfect-example)
+
+::::
+  
+:::: {.column}
+
+- **Goal**: Let's reproduce! 
+
+::::
+  
+:::
+
+# A very imperfect example
+
+## A Github page {.smaller}
+
+```{r github1,echo=FALSE}
+
+knitr::include_url("https://github.com/labordynamicsinstitute/very-imperfect-example")
+
+```
+
+## A Github page {.smaller}
+
+```{r github1png,echo=FALSE,include=FALSE}
+
+#webshot('https://github.com/labordynamicsinstitute/very-imperfect-example','images/example.png', cliprect = 'viewport',delay=2)
+
+```
+[Very Imperfect Example](images/very-imperfect-example.png)
+
+## The "paper"
+
+```{r readmeweb2,echo=FALSE}
+
+knitr::include_url("https://github.com/labordynamicsinstitute/very-imperfect-example/blob/main/text/main.pdf")
+
+```
+
+
+## The "paper"
+
+```{r readmeweb2png,echo=FALSE,include=FALSE}
+
+#webshot("https://github.com/labordynamicsinstitute/very-imperfect-example/blob/main/text/main.pdf",'images/paper.png', cliprect = 'viewport')
+
+```
+
+[Paper](images/very-imperfect-example-paper.png)
+
+## Your turn
+
+- Download the "very imperfect example" [https://github.com/labordynamicsinstitute/very-imperfect-example](https://github.com/labordynamicsinstitute/very-imperfect-example)
+- Reproduce Table 1
+- You have 10 minutes
+
+```{r, child=c('counter10.md')}
+```
+
+
+## Next
+
+
+```{r, child=c('toc.md')}
+```
