@@ -1,9 +1,9 @@
 ---
-title: "École d'été 2023"
+title: "Reproducibility Workshop Nihon にほん 2023"
 author: 
   - "Lars Vilhuber"
   - "Chishio Furukawa"
-date: juin 2023
+date: September 2023
 output: 
   ioslides_presentation:
     incremental: false
@@ -18,8 +18,7 @@ output:
 ## Languages
 
 - All slides are in English
-- Toutes les questions peuvent être en français
-- Toutes les réponses vont être dans la langue posée, ou en français
+- Japanese language support will be onsite.
 
 ## Code of Conduct
 
@@ -33,7 +32,7 @@ output:
 -  Focus on what is best for the community
 -  Show courtesy and respect towards other community members
 
-If you believe someone is violating the Code of Conduct, we ask that you report it to us or QICSS/CIQSS.
+If you believe someone is violating the Code of Conduct, we ask that you report it to us.
 
 
 # Next up: Real introduction
