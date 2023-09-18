@@ -1,5 +1,5 @@
 ---
-title: "École d'été 2023 - Introduction"
+title: "Reproducibility Workshop 2023 - Introduction"
 author: 
   - "Lars Vilhuber"
   - "Chishio Furukawa"
