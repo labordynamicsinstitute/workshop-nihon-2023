@@ -12,9 +12,9 @@
 
 11:50-13:00 ... Lunch time 
 
-13:00-13:50 ... Foundations of reproducible programming practices (in any programming language) [3](02-how-to-install-Stata-packages.html) 
+13:00-13:50 ... Foundations of reproducible programming practices (in any programming language) [3](02-how-to-install-Stata-packages.html) [4](13-environments.html)
 
-14:00-14:50 ... Continuation and open discussion about specific examples (if you have one, bring your own project! )  
+14:00-14:50 ... Continuation and open discussion about specific examples (if you have one, bring your own project!) [5](12-discussion-final.html)
 
 15:00-15:50 ... Discussions on institutional support for replicability in Japanese context (including Q&A)
 15:50-16:00 ... Closing remarks

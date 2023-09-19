@@ -17,6 +17,17 @@ output:
 
 # Discussion 
 
+## Links brought up in the discussion
+
+- [synthpop](https://synthpop.org.uk/)
+- [AEA Data Editor FAQ](https://www.aeaweb.org/journals/policies/data-code/faq) and [FAQ2](https://aeadataeditor.github.io/aea-de-guidance/FAQ.html)
+- [snakemake](https://snakemake.readthedocs.io/en/stable/)
+- [LDI Lab Training manual](https://labordynamicsinstitute.github.io/ldilab-manual/index.html)
+- [Clemans Bracero Dataverse](https://dataverse.harvard.edu/dataverse/bracero)
+
+And sample project as developed during the class:
+
+- [Step3.zip](Step3.zip)
 
 ## Write your own README
 
