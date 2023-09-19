@@ -121,7 +121,7 @@ slide:not(.current) .plotly.html-widget{
           </hgroup>
   </slide>
 
-<slide class=""><hgroup><h2>The Plan</h2></hgroup><article  id="the-plan" class="smaller">
+<slide class=""><hgroup><h2>The Plan</h2></hgroup><article  class="smaller" id="the-plan">
 
 <p>9:00</p>
 
@@ -136,9 +136,9 @@ slide:not(.current) .plotly.html-widget{
 
 <p>11:50-13:00 … Lunch time</p>
 
-<p>13:00-13:50 … Foundations of reproducible programming practices (in any programming language) <a href='02-how-to-install-Stata-packages.html' title=''>3</a></p>
+<p>13:00-13:50 … Foundations of reproducible programming practices (in any programming language) <a href='02-how-to-install-Stata-packages.html' title=''>3</a> <a href='13-environments.html' title=''>4</a></p>
 
-<p>14:00-14:50 … Continuation and open discussion about specific examples (if you have one, bring your own project! )</p>
+<p>14:00-14:50 … Continuation and open discussion about specific examples (if you have one, bring your own project!) <a href='12-discussion-final.html' title=''>5</a></p>
 
 <p>15:00-15:50 … Discussions on institutional support for replicability in Japanese context (including Q&amp;A) 15:50-16:00 … Closing remarks</p>
 
@@ -241,18 +241,17 @@ C:\Users\lv39\ado\plus\a\adoinstall.ado
 <pre >cd &quot;$rootdir&quot;
 // Remove those unnecessary places
 adopath - OLDPLACE
-adopath - PLUS
 adopath - PERSONAL
-// Add a project specific one
-cap mkdir adofiles
-adopath ++ &quot;${rootdir}/adofiles&quot;</pre>
+// Add a project specific one, by repurposing the PLUS directory
+cap mkdir &quot;${rootdir}/adofiles&quot;
+sysdir set PLUS &quot;${rootdir}/adofiles&quot;</pre>
 
 </article></slide><slide class=""><hgroup><h2>Outcome</h2></hgroup><article  id="outcome">
 
 <p>(note the search order)</p>
 
 <pre >. adopath ++ &quot;${rootdir}/adofiles&quot;
-  [1]              &quot;/path/to/project/adofiles&quot;
+  [1]  (PLUS)      &quot;/path/to/project/adofiles&quot;
   [2]  (BASE)      &quot;C:\Program Files\Stata17\ado\base/&quot;
   [3]  (SITE)      &quot;C:\Program Files\Stata17\ado\site/&quot;
   [4]              &quot;.&quot;</pre>
@@ -345,7 +344,7 @@ adopath ++ &quot;${rootdir}/adofiles&quot;</pre>
 
 </article></slide><slide class=""><hgroup><h2>Next</h2></hgroup><article  id="next-1">
 
-</article></slide><slide class=""><hgroup><h2>The Plan</h2></hgroup><article  id="the-plan-1" class="smaller">
+</article></slide><slide class=""><hgroup><h2>The Plan</h2></hgroup><article  class="smaller" id="the-plan-1">
 
 <p>9:00</p>
 
@@ -360,9 +359,9 @@ adopath ++ &quot;${rootdir}/adofiles&quot;</pre>
 
 <p>11:50-13:00 … Lunch time</p>
 
-<p>13:00-13:50 … Foundations of reproducible programming practices (in any programming language) <a href='02-how-to-install-Stata-packages.html' title=''>3</a></p>
+<p>13:00-13:50 … Foundations of reproducible programming practices (in any programming language) <a href='02-how-to-install-Stata-packages.html' title=''>3</a> <a href='13-environments.html' title=''>4</a></p>
 
-<p>14:00-14:50 … Continuation and open discussion about specific examples (if you have one, bring your own project! )</p>
+<p>14:00-14:50 … Continuation and open discussion about specific examples (if you have one, bring your own project!) <a href='12-discussion-final.html' title=''>5</a></p>
 
 <p>15:00-15:50 … Discussions on institutional support for replicability in Japanese context (including Q&amp;A) 15:50-16:00 … Closing remarks</p></article></slide>
 

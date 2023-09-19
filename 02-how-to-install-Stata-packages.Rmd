@@ -120,11 +120,10 @@ Use **code** to install to a **project-specific location**.
 cd "$rootdir"
 // Remove those unnecessary places
 adopath - OLDPLACE
-adopath - PLUS
 adopath - PERSONAL
-// Add a project specific one
-cap mkdir adofiles
-adopath ++ "${rootdir}/adofiles"
+// Add a project specific one, by repurposing the PLUS directory
+cap mkdir "${rootdir}/adofiles"
+sysdir set PLUS "${rootdir}/adofiles"
 ```
 
 ## Outcome
@@ -133,7 +132,7 @@ adopath ++ "${rootdir}/adofiles"
 
 ```
 . adopath ++ "${rootdir}/adofiles"
-  [1]              "/path/to/project/adofiles"
+  [1]  (PLUS)      "/path/to/project/adofiles"
   [2]  (BASE)      "C:\Program Files\Stata17\ado\base/"
   [3]  (SITE)      "C:\Program Files\Stata17\ado\site/"
   [4]              "."

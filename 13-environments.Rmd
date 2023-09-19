@@ -1,0 +1,58 @@
+---
+title: "Environments"
+author: 
+  - "Lars Vilhuber"
+  - "Chishio Furukawa" 
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+    incremental: false
+    self-included: true
+    widescreen: true
+---
+
+```{r, child=c('toc.md')}
+```
+
+# Environments
+
+## What is an environment?
+
+An environment is a software-specific restricted area where you can run code. It overlaps with, but is not identical to the project directory (some environments are defined within the project, but stored outside). 
+
+## Stata 
+
+Back in the Stata part, we created an environment, by redefining the Stata `adopath` list of search paths:
+
+
+```
+// Remove those unnecessary places
+adopath - OLDPLACE
+adopath - PERSONAL
+// Add a project specific one, by repurposing the PLUS directory
+cap mkdir "${rootdir}/adofiles"
+sysdir set PLUS "${rootdir}/adofiles"
+```
+
+## R
+
+Various methods exist. 
+
+- `renv()` is a popular one. 
+- The basic search path is defined by `.libPaths()`, and can be defined independently of `renv`.
+- `install.packages()` is discouraged, as `remotes::install_version()` is preferred.
+
+## Python
+
+Various methods exist:
+
+- if using Anaconda, `conda` is the preferred method of managing environments, see [1](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#). `conda` usually uses `environment.yml` files to define environments.
+- if using native Python, `venv` is the preferred method of managing environments, see [2](https://docs.python.org/3/library/venv.html). `venv` usually uses `requirements.txt` files to define environments, in conjunction with `pip`.
+
+## Caution
+
+In both R and Python, it is possible to overspecify the environment. Users should take care to specify only the packages used to CREATE an environment, not all the packages that were ultimately installed in the environment due to dependencies. The latter are relevant for documenting the environment, but usually have platform/OS-dependent elements, and break cross-platform compatibility.
+
+
+
+
