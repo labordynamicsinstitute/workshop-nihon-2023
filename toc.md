@@ -4,7 +4,7 @@
 9:00 
 
 - Konnichi wa こんにちは 
-- Overview of reproducibility and replicability in economics, including replication packages
+- Overview of reproducibility and replicability in economics, including replication packages ([presentation](https://doi.org/10.5281/zenodo.8362024))
 
 10:00-10:50 ... Let's make a replication package (hands-on using a simple example, from directory structure to (almost) deposit at a trusted repository) [0](Step1.zip)
 
