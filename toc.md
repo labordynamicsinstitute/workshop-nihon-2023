@@ -6,7 +6,7 @@
 - Konnichi wa こんにちは 
 - Overview of reproducibility and replicability in economics, including replication packages
 
-10:00-10:50 ... Let's make a replication package (hands-on using a simple example, from directory structure to (almost) deposit at a trusted repository) [0]
+10:00-10:50 ... Let's make a replication package (hands-on using a simple example, from directory structure to (almost) deposit at a trusted repository) [0](Step1.zip)
 
 11:00-11:50 ... Principles and structure of replication packages (including README files) [1](05-how-to-structure-a-project.html)  [2](06-template-readme.html) For confidential data: [1b](https://larsvilhuber.github.io/reproducibility-confidential-fsrdc)
 
