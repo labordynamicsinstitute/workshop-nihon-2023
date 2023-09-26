@@ -2,6 +2,14 @@
 
 Online: https:///labordynamicsinstitute.github.io/workshop-nihon-2023
 
+## Archives
+
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8380042.svg)](https://doi.org/10.5281/zenodo.8380042)
+
+
+
 ## To run this
 
 It is built using Github Actions, see [main.yml](.github/workflows/main.yml).
